@@ -1,0 +1,78 @@
+<html>
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.jpg">
+  <title>course description</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type = "text/javascript">
+    var a=0;
+  function showalert() {
+    var myText = "You have registered!";
+    alert (myText);
+    document.getElementById("click").innerHTML=a++;
+    Window.println(a);
+    
+}
+ 
+</script>
+</head>
+<style>
+    .box {
+  background-color:silver;
+  width: 600px;
+  border: 15px solid black;
+  padding: 80px;
+  margin-left: 220px;
+}
+h3 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+h3 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
+
+</style>
+<body>
+
+<div class="container  ">
+  <h2 style="text-align:center;font-family: cursive;color:blueviolet">COURSE DESCRIPTION</h2>
+  <div class="box">
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+        
+            Author name:Prof. A.K.Ghosh<br/><br/>
+                Institute:IITK<br/><br/>
+                Courseid:noc22-ae10<br/><br/>
+                Credits:3<br/><br/>
+                Duration:12 weeks<br/><br/>
+                
+      
+    <div class="form-group">        
+      
+    </div>
+  </form>
+  </div>
+
+</div><br><br><br>
+<h3><span>New To Course</span></h3>
+<div class="col-md-12 text-center">
+<button" onclick="showalert()" id="click"class="btn btn-success" style="text-align:center">Register</button>
+</div>
+
+</body>
+</html>
